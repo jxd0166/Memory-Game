@@ -9,20 +9,23 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+  <div class="container">
 
-    <div class="container">
-        <header>
-            <h1>Matching Game</h1>
+      <header>
+            <h1>Jon's Matching Game</h1>
         </header>
 
-        <section class="score-panel">
-        	<ul class="stars">
+          <section class="score-panel">
+
+          <ul class="stars">
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0</span> Moves
+
+        <span class="clock">0.00</span>
 
             <div class="restart">
         		<i class="fa fa-repeat"></i>
@@ -36,7 +39,7 @@
             <li class="card">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -45,7 +48,7 @@
             <li class="card">
                 <i class="fa fa-cube"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -66,7 +69,7 @@
             <li class="card">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card open show">
+            <li class="card">
                 <i class="fa fa-bolt"></i>
             </li>
             <li class="card">
@@ -80,7 +83,22 @@
             </li>
         </ul>
     </div>
-
+    <div class="modal__background hide">
+        <div class="modal_box">
+          <div class="modal_heading">
+            <h1 class="modal_title">Final Score</h1>
+          </div>
+          <div class="m_stats">
+            <span class="m_stars"> Stars =</span>
+            <span class="m_time"> Time =</span>
+            <span class="m_moves"> Moves =</span>
+          </div>
+    <div class="m_buttons">
+            <button class="m_button modal_cancel">Cancel</button>
+            <button class="m_button modal_replay">Replay</button>
+          </div>
+        </div>
+    </div>
     <script src="js/app.js"></script>
 </body>
 </html>
