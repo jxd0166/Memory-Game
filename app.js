@@ -10,12 +10,14 @@
  *   - add each card's HTML to the page
  */
 
- let moves = 0;
- let toggledCards =[];
- let clockOff= true;
- let time= 0;
- let clockId;
- let matched= 0;
+ 
+   let moves = 0;
+   let toggledCards =[];
+   let clockOff= true;
+   let time= 0;
+   let clockId;
+   let matched= 0;
+
 
  time=0;
  displayTimer();
@@ -23,6 +25,7 @@
  scoreChecker();
  writeModalStats()
  toggleModal();
+
 
  const deck= document.querySelector('.deck');
 

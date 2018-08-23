@@ -1,5 +1,9 @@
 # Memory Game Project
 
+This was created using HTML, CSS, a bit of Bootstrap and Javascript.
+
+
+
 ## Table of Contents
 
 * [Instructions](#instructions)
@@ -7,14 +11,8 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Click each card to try and find it's matching card in as few of turns as possible in the shortest amount of time! Good luck!
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Feel free to submit any push requests for updates to tweak and enhance the game! A stored list of top winners would be nice!
