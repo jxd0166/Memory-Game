@@ -10,7 +10,7 @@
  *   - add each card's HTML to the page
  */
 
- 
+
    let moves = 0;
    let toggledCards =[];
    let clockOff= true;
